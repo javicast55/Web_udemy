@@ -1,13 +1,27 @@
 @media screen and (max-width: 980px){
     header section{width: 100%;}
+    #articulos section{width: 100%;}
+    #servicios section{width: 100%;}
+    #servicios section a{width: 40%; padding: 30px;}
+    #contacto section form{width: 100%;}
 }
 @media screen and (max-width: 800px){
     header section h1 {text-align: center;margin-bottom: 15px;}
     header section #menu {width: 100%;margin: 0;text-align: center;}
     header section #menu a {display: inline-block;border:1px solid #666;}
+    #servicios section a{width: 90%; padding: 20px;}
 }
 
 @media screen and (max-width: 500px){
     #inicio section h2 {font-size: 15px;}
     #inicio section p {font-size: 12px;}
+    #servicios section a{
+        width: 80%;
+        padding: 10px;
+        margin: 2px;
+        display: inline-block;
+        border: 1px solid white;
+        font: 20px Verdana;
+        color: white;
+    }
 }
